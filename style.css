@@ -1,0 +1,138 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+}
+
+.title {
+  font-family: 'helvetica';
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  left: 40%;
+}
+
+form {
+  padding: 100px 50px;
+  width: 15em;
+  position: relative;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  left: 38%;
+  top: 20%;
+  background: whitesmoke;
+  height: 16em;
+  border: 2px solid dodgerblue;
+  border-radius: 5px;
+}
+
+label {
+  font-size: 14pt;
+  font-style: helvetica;
+}
+
+button {
+  padding: 5px 20px;
+  font-size: 13pt;
+  margin-top: 1em;
+  color: white;
+  background-color: dodgerblue;
+  border: 2px solid white;
+  border-radius: 12px;
+  position: absolute;
+  left: 55%;
+  top: 60%;
+  font-family: 'helvetica';
+}
+
+button:hover {
+  background: #0039a6;
+  color: white;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+#error {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  left: 20%;
+  top: 55%;
+  font-size: 10pt;
+}
+
+.inputform {
+  width: 50px;
+  top: 25%;
+  padding: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0;
+  height: 70px;
+}
+
+#lockicon {
+  position: relative;
+  right: 30%;
+  top: 35%;
+}
+
+#userMail {
+  position: relative;
+  right: 30%;
+  top: 35%;
+}
+
+input {
+  width: 200px;
+  height: 25px;
+  border-radius: 5px;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+input[type=text]:focus {
+  border: 3px solid blue;
+}
+
+/*mobile responsive site */
+@media screen and (max-width: 600px) {
+  form {
+    left: 25%;
+    top: 28%;
+  }
+}
+
+/* tablet responsive */
+@media screen and (max-width: 768px) {
+  form {
+    left: 20%;
+    top: 20%;
+  }
+}
+
+::-webkit-input-placeholder {
+  color: dodgerblue;
+}
+
+:-ms-input-placeholder {
+  color: dodgerblue;
+}
+
+::-ms-input-placeholder {
+  color: dodgerblue;
+}
+
+::placeholder {
+  color: dodgerblue;
+}
+/*# sourceMappingURL=style.css.map */
